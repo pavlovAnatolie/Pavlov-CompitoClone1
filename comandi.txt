@@ -1,0 +1,30 @@
+   98  git commit "navbar light"
+   99  git commit -m "navbar light"
+  100  git branch
+  101  git merge newFeature-Navbar
+  102  git commit -m "conflitto in corso"
+  103  git add .
+  104  git commit -m "conflitto in corso"
+  105  git log
+  106  git push origin master
+  107  cd Desktop
+  108  git clone https://github.com/sena-meucci/progettoStampa.git
+  109  code .
+  110  cd progettoStampa/
+  111  git ls -a
+  112  ls -a
+  113  code .
+  114  git config user.name "pavlovAnatolie"
+  115  git config user.email"pavlov.anatolie@itismeucci.com"
+  116  git add .
+  117  git commit -m "inserito nome"
+  118  git branch BugFix
+  119  git checkout BugFix
+  120  code .
+  121  git add .
+  122  git commit -m "errore risolto in stampa"
+  123  git checkout master
+  124  git merge BugFix
+  125  git branch -d BugFix
+  126  git branch
+  127  history 30 > comandi.txt
